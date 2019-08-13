@@ -1,0 +1,69 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<form method="POST">
+    {% csrf_token %}
+    <div class="circle--actions--bar">
+        <div class="bounds">
+            <div class="grid-100">
+                <!-- Button Save Project -->
+                <input type="submit" value="Save Project" class="button button-primary">
+                <a class="button button-text" href="{% url 'projects:all' %}">Discard</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="bounds circle--page circle--article">
+        <div class="grid-70">
+            <div class="circle--article--body">
+                {{ form.title }}
+                {{ form.description }}
+            </div>
+        
+            <div class="circle--project--positions">
+                <h2>Positions</h2>
+                {{ position_formset.management_form}}
+                <ul class="circle--group--list circle--clone--list">
+                    {% for position_form in position_formset %}
+                    <li class="position-formset">
+                    {{ position_form }}
+                    </li>
+                    {% endfor %}
+                </ul>
+                <!-- Button Save Project -->
+                <input type="submit" value="Save Project" class="button button-primary">
+            </div>
+        </div>
+            
+        <div class="grid-25 grid-push-5">
+        
+            <div class="circle--secondary--module">
+                <h3>Project Timeline</h3>
+                {{ form.time_line }}
+            </div>
+        
+            <div class="circle--secondary--module">
+                <h3>Applicant Requirements</h3>
+                {{ form.requirementes }}
+            </div>
+        
+        </div>
+    </div>
+</form>
+
+{% block js %}
+  {% load static from staticfiles %}
+  {{ form.media.js }}
+  <script src="{% static 'js/jquery.formset.js' %}"></script>
+  <script>
+    $('.position-formset').formset({
+        prefix: '{{ position_formset.prefix }}',
+        deleteCssClass: 'circle--clone--remove',
+        deleteText: 'Remove',
+        addCssClass: 'circle--clone--add',
+        addText: 'Add Position'
+    });
+  </script>
+{% endblock js %}
+
+{% endblock %}

@@ -1,0 +1,105 @@
+{% extends "layout.html" %}
+{% load static from staticfiles %}
+
+{% block css %}
+  <link rel="stylesheet" href="{% static 'css/variables.css' %}">
+{% endblock %}
+
+{% block body %}
+{% if is_admin %}
+  <div class="circle--actions--bar">
+      <div class="bounds">
+        <div class="grid-100">
+          <a class="button" href="{% url 'projects:edit_project' pk=project.pk %}">Edit Project</a>
+          <a class="button button-text" href="{% url 'projects:delete_project' pk=project.pk %}">Delete Project</a>
+        </div>
+      </div>
+  </div>
+{% endif %}
+
+<div class="bounds circle--page circle--article">
+    <div class="grid-70">
+      <div class="circle--article--header">
+        <h4 class="circle--article--section">Project</h4>
+        <h1 class="circle--article--title">{{ project.title }}</h1>
+        <p class="circle--article--byline">Project Owner: <a>{{ project.user.first_name }}</a></p>
+      </div>
+
+      <div class="circle--article--body">
+        <p>{{ project.description }}</p>
+      </div>
+
+      <div class="circle--project--positions">
+        <h2>Positions</h2>
+
+        <ul class="circle--group--list">
+          {% for position in positions %}
+            <li>
+                <h3 id="{{ position.name }}">{{ position.name }}</h3>
+                <p>{{ position.description }}</p>
+                {% if user.is_authenticated %}
+                  {% if is_admin %}
+                      {% for application in position.applications.all %}
+                          <p>
+                            {{ application.user.first_name }} - status: {{ application.get_status_display }}
+                            {% if not position.engaged %}
+                              <a class="button button-text" href="{% url 'projects:apply_position' pk=project.pk pk_object=application.pk status=2 %}" >
+                                Accept
+                              </a>
+                              <a class="button button-text" href="{% url 'projects:apply_position' pk=project.pk pk_object=application.pk status=3 %}" >
+                                  Reject
+                              </a>
+                            {% else %}
+                              <a class="button-text-inactive" >Accept</a>
+                              <a class="button button-text" href="{% url 'projects:apply_position' pk=project.pk pk_object=application.pk status=3 %}" >
+                                Reject
+                              </a>
+                            {% endif %}
+                          </p>
+                      {% endfor %}
+                  {% else %}
+                      {% if position in applying_for %}
+                        <button disabled class="button button-inactive">Applying</button>
+                      {% elif position in applications_accepted %}
+                        <button disabled class="button button-inactive">Accepted</button>
+                      {% else %}
+                        {% if not position.engaged %}
+                          <a class="button button-primary" href="{% url 'projects:apply_position' pk=project.pk pk_object=position.pk status=1 %}">
+                            Apply
+                          </a>
+                        {% else %}
+                          <button disabled class="button button-inactive">Position filled</button>
+                        {% endif %}
+                      {% endif %}
+                  {% endif %}
+                {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="grid-25 grid-push-5">
+      <div class="circle--secondary--module">
+        <h3>Project Needs</h3>
+        <ul class="circle--link--list">
+          {% for position in positions %}
+          <li><a href="#{{ position.name }}">{{ position.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="circle--secondary--module">
+        <h3>Project Timeline</h3>
+        <p>{{ project.time_line }} hour{{ project.time_line|pluralize }}</p>
+      </div>
+
+      <div class="circle--secondary--module">
+        <h3>Applicant Requirements</h3>
+        <p>{{ project.requirementes }}</p>
+      </div>
+
+    </div>
+</div>
+{% endblock %}

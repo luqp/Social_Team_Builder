@@ -1,0 +1,23 @@
+{% extends "accounts/layout.html" %}
+
+{% block profile %}
+<div class="bounds grid-40 centered">
+        <h2 >Applications</h2>
+
+        <ul>
+          {% for app in application_list %}
+          <li class="clickable-row">
+            <a href="{% url 'projects:detail_project' pk=app.position.project.pk %}">
+              {{ app.position.name }}
+            </a>
+            <div>
+              <button disabled class="button button-inactive">{{ app.get_status_display }}</button>
+              {% if app.status != 2 %}
+                <a class="button button-unfollow" href="{% url 'projects:app_delete' pk_app=app.pk %}" class="button">Delete</a>
+              {% endif %}
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+</div>
+{% endblock %}

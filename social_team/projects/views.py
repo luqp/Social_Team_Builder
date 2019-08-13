@@ -59,7 +59,10 @@ class ProjectsListView(generic.ListView):
     def get_queryset(self):
         q = self.request.GET.get('q')
         if q:
-            return Project.objects.filter(title__icontains=q)
+            return Project.objects.filter(
+                Q(title__icontains=q)|
+                Q(description__icontains=q)
+            )
         else:
             query = self.kwargs.get('q')
             if query:

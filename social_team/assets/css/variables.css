@@ -61,3 +61,24 @@
         left: 0;
     }
 }
+
+.skill-position{
+    display: flex;
+}
+
+.skill-position h4 {
+    padding-right: 2rem;
+}
+
+.position-detail p {
+    margin: 0;
+}
+
+.position-detail a {
+    margin: 0;
+    padding: 1rem;
+}
+
+.position-detail .description {
+    padding-bottom: 2rem;
+}

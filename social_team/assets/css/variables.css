@@ -1,0 +1,63 @@
+.grid-40 h2 {
+    border-bottom: 1px solid  #999;
+    margin: 0;
+}
+.grid-40 li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e1e1e1;
+    margin: 0;
+}
+
+.grid-40 a {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0;
+}
+
+.grid-40 button {
+    margin: 1rem;
+}
+
+.avatar {
+    padding: 1.2rem 1rem;
+    border: 1px solid #c4d8d7;;
+    border-radius: 8px;
+}
+
+.avatar input {
+    width: 100%;
+}
+
+.button-text-inactive {
+    color: #cccccc;
+    font-weight: bold;
+    box-shadow: none;
+    padding: 18px 15px;
+}
+
+    .button-text-inactive:hover {
+        color: #c0c0c0;
+    }
+
+.button-unfollow {
+    color: #fff;
+    background-color: #f0a29d;
+    box-shadow: none;
+}
+
+    .button-unfollow:hover {
+        color: #fff;
+        background-color: #e76b62;
+        box-shadow: none;
+    }
+
+@media screen and (min-width: 640px) {
+    .grid-40 {
+        width: 80%;
+        left: 0;
+    }
+}

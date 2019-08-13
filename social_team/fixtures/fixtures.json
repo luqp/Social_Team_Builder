@@ -1,0 +1,1472 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "accounts",
+    "model": "skill"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "accounts",
+    "model": "useraccount"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "projects",
+    "model": "project"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "projects",
+    "model": "position"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "projects",
+    "model": "application"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dahv3omvl0wrbe183qxe9dubudbja68m",
+  "fields": {
+    "session_data": "MzJjZjE0ZjEyODQ2MWM5NmNjMzc1OGQ1MjJjMDJmYzc5ZjhjMmRlYzp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJhMDEyNDgyMjU2NDI3NjBkYTRiZjhlY2I3MjUxOTcxODAwYjVlYmQ5In0=",
+    "expire_date": "2019-08-27T15:32:09.585Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "p87a9mr3f36psg9a0ethdd1of45k41hs",
+  "fields": {
+    "session_data": "MzFkYWExMzEwY2ViYjhjZjIxNjcwMDFjNTdmYjA5ZmVjZjk2ZTdkZDp7Il9hdXRoX3VzZXJfaWQiOiI4IiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4OWNlMWU3YzIwODhiODNjOTYzNTA0YTMxNWM4N2JmZDY4ODE0ZTE3In0=",
+    "expire_date": "2019-08-27T00:15:02.717Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vb8x1qpwa84e0ejp415y7vdncowrxq5p",
+  "fields": {
+    "session_data": "MDgzZDZhMTU1MDJlZDZmN2Q4OWUzZjkyMTYwOTJiNWQzZTQ0NjQ4YTp7Il9hdXRoX3VzZXJfaWQiOiI1IiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJhNjk5MWFlMWMxMjBmODQxM2Q2ODVlMmI1NzJlNjc3NDE0ZTE4MGQ2In0=",
+    "expire_date": "2019-08-27T15:13:03.495Z"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 1,
+  "fields": {
+    "name": "Algorithms"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 2,
+  "fields": {
+    "name": "Analytical Skills"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 3,
+  "fields": {
+    "name": "Big Data"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 4,
+  "fields": {
+    "name": "Calculating"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 5,
+  "fields": {
+    "name": "Compiling Statistics"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 6,
+  "fields": {
+    "name": "Data Analytics"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 7,
+  "fields": {
+    "name": "Data Mining"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 8,
+  "fields": {
+    "name": "Database Design"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 9,
+  "fields": {
+    "name": "Database Management"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 10,
+  "fields": {
+    "name": "Documentation"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 11,
+  "fields": {
+    "name": "Modeling"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 12,
+  "fields": {
+    "name": "Modification"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 13,
+  "fields": {
+    "name": "Needs Analysis"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 14,
+  "fields": {
+    "name": "Quantitative Research"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 15,
+  "fields": {
+    "name": "Quantitative Reports"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 16,
+  "fields": {
+    "name": "Statistical Analysis"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 17,
+  "fields": {
+    "name": "Applications"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 18,
+  "fields": {
+    "name": "Certifications"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 19,
+  "fields": {
+    "name": "Coding"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 20,
+  "fields": {
+    "name": "Computing"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 21,
+  "fields": {
+    "name": "Configuration"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 22,
+  "fields": {
+    "name": "Customer Support"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 23,
+  "fields": {
+    "name": "Debugging"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 25,
+  "fields": {
+    "name": "Development"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 26,
+  "fields": {
+    "name": "Hardware"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 27,
+  "fields": {
+    "name": "Implementation"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 28,
+  "fields": {
+    "name": "Information Technology"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 29,
+  "fields": {
+    "name": "ICT (Information and Communications Technology)"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 30,
+  "fields": {
+    "name": "Infrastructure"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 31,
+  "fields": {
+    "name": "Languages"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 32,
+  "fields": {
+    "name": "Maintenance"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 33,
+  "fields": {
+    "name": "Network Architecture"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 34,
+  "fields": {
+    "name": "Network Security"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 35,
+  "fields": {
+    "name": "Networking"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 36,
+  "fields": {
+    "name": "New Technologies"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 37,
+  "fields": {
+    "name": "Operating Systems"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 38,
+  "fields": {
+    "name": "Programming"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 39,
+  "fields": {
+    "name": "Restoration"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 40,
+  "fields": {
+    "name": "Security"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 41,
+  "fields": {
+    "name": "Servers"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 42,
+  "fields": {
+    "name": "Software"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 43,
+  "fields": {
+    "name": "Solution Delivery"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 44,
+  "fields": {
+    "name": "Storage"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 45,
+  "fields": {
+    "name": "Structures"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 46,
+  "fields": {
+    "name": "Systems Analysis"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 47,
+  "fields": {
+    "name": "Technical Support"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 48,
+  "fields": {
+    "name": "Technology"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 49,
+  "fields": {
+    "name": "Testing"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 50,
+  "fields": {
+    "name": "Tools"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 51,
+  "fields": {
+    "name": "Training"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 52,
+  "fields": {
+    "name": "Troubleshooting"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 53,
+  "fields": {
+    "name": "Usability"
+  }
+},
+{
+  "model": "accounts.skill",
+  "pk": 85,
+  "fields": {
+    "name": "Design"
+  }
+},
+{
+  "model": "projects.position",
+  "pk": 6,
+  "fields": {
+    "project": 5,
+    "skill": 1,
+    "name": "Organizer",
+    "description": "Your role is to organize group meetings, places, times, dates, member contact information, communication requirements, timelines, etc.",
+    "engaged": false
+  }
+},
+{
+  "model": "projects.position",
+  "pk": 7,
+  "fields": {
+    "project": 5,
+    "skill": 1,
+    "name": "IT Specialist",
+    "description": "Your role is to ensure that the \u2018product\u2019 or \u2018take-away\u2019 of the project is perfect and very professionally done.",
+    "engaged": false
+  }
+},
+{
+  "model": "projects.position",
+  "pk": 8,
+  "fields": {
+    "project": 6,
+    "skill": 1,
+    "name": "Shaper",
+    "description": "These traits may mean that they cause friction with other, especially people-orientated, members of the group. Due to the personality of the Shaper they push the group towards agreement and decision making, keen to remove barriers and embrace challenges.",
+    "engaged": true
+  }
+},
+{
+  "model": "projects.position",
+  "pk": 9,
+  "fields": {
+    "project": 6,
+    "skill": 1,
+    "name": "Implementer",
+    "description": "Implementers are conscientious, wanting things to be done properly. They are very practical and organised in nature hence their ability to get the job done. Implementers can be stuck in their ways, not always open to new ideas and way of doing things. Implementers would rather stick to old, tried and tested methods than to embrace change and innovation.",
+    "engaged": true
+  }
+},
+{
+  "model": "projects.position",
+  "pk": 16,
+  "fields": {
+    "project": 12,
+    "skill": 1,
+    "name": "C# Programmer",
+    "description": "Write fastest code as possible",
+    "engaged": true
+  }
+},
+{
+  "model": "projects.position",
+  "pk": 17,
+  "fields": {
+    "project": 6,
+    "skill": 1,
+    "name": "Resource Investigator",
+    "description": "Resource Investigators are curious and sociable in their nature they are open to new ideas and ways of accomplishing tasks. Being flexible, innovative and open to change, Resource Investigators are listened to by other team members. Sometimes, however, they are unrealistic in their optimism.",
+    "engaged": false
+  }
+},
+{
+  "model": "projects.position",
+  "pk": 18,
+  "fields": {
+    "project": 12,
+    "skill": 1,
+    "name": "Database Programmer",
+    "description": "Database programmers are responsible for maintaining and updating computer programs and databases, and writing new code as requested or required. This role has an emphasis on MS Access, Visual Basic, SQL, and the manipulation of Microsoft Office products to extract information.",
+    "engaged": false
+  }
+},
+{
+  "model": "projects.position",
+  "pk": 19,
+  "fields": {
+    "project": 12,
+    "skill": 1,
+    "name": "Design and Test Programer",
+    "description": "Programmers design, write and modify programs to improve application processing for things such as online applications to websites, data transfer to internal databases, the processing of the application data, and online payment systems.",
+    "engaged": true
+  }
+},
+{
+  "model": "projects.position",
+  "pk": 20,
+  "fields": {
+    "project": 13,
+    "skill": 9,
+    "name": "Specialist Database",
+    "description": "Specialists are passionate about learning in their own particular field. As a result, they are likely to be a fountain of knowledge and will enjoy imparting this knowledge to others.",
+    "engaged": true
+  }
+},
+{
+  "model": "projects.position",
+  "pk": 21,
+  "fields": {
+    "project": 13,
+    "skill": 23,
+    "name": "Design and Test",
+    "description": "Database programmers design, write and modify programs to improve application processing for things such as online applications to websites, data transfer to internal databases, the processing of the application data, and online payment systems.",
+    "engaged": true
+  }
+},
+{
+  "model": "projects.position",
+  "pk": 22,
+  "fields": {
+    "project": 13,
+    "skill": 22,
+    "name": "Organizer",
+    "description": "Your role is to organize group meetings, places, times, dates, member contact information, communication requirements, timelines, etc.",
+    "engaged": false
+  }
+},
+{
+  "model": "projects.position",
+  "pk": 23,
+  "fields": {
+    "project": 13,
+    "skill": 17,
+    "name": "IT Specialist",
+    "description": "Your role is to ensure that the \u2018product\u2019 or \u2018take-away\u2019 of the project is perfect and very professionally done.",
+    "engaged": false
+  }
+},
+{
+  "model": "projects.position",
+  "pk": 24,
+  "fields": {
+    "project": 12,
+    "skill": 1,
+    "name": "Specialist Database",
+    "description": "Specialists are passionate about learning in their own particular field. As a result, they are likely to be a fountain of knowledge and will enjoy imparting this knowledge to others.",
+    "engaged": false
+  }
+},
+{
+  "model": "projects.position",
+  "pk": 25,
+  "fields": {
+    "project": 14,
+    "skill": 10,
+    "name": "Organizer",
+    "description": "Your role is to organize group meetings, places, times, dates, member contact information, communication requirements, timelines, etc.",
+    "engaged": false
+  }
+},
+{
+  "model": "projects.position",
+  "pk": 26,
+  "fields": {
+    "project": 14,
+    "skill": 27,
+    "name": "Decision-Making",
+    "description": "Although it may be important to take time to gather information to ensure that the decision is right, there may come a time when any decision is better than none.",
+    "engaged": true
+  }
+},
+{
+  "model": "projects.position",
+  "pk": 27,
+  "fields": {
+    "project": 14,
+    "skill": 13,
+    "name": "Build Rapport",
+    "description": "These people are also good at developing a sense of harmony within the group. They help to build rapport with others, creating a coherent team",
+    "engaged": false
+  }
+},
+{
+  "model": "projects.position",
+  "pk": 28,
+  "fields": {
+    "project": 14,
+    "skill": 53,
+    "name": "Monitor Evaluator",
+    "description": "The monitor evaluator will critically evaluate and analyse the proposals, ideas and contributions of others in the team.  Monitor Evaluators carefully weigh up advantages and disadvantages, strengths and weaknesses of ideas and proposals and therefore are usually good decision makers.",
+    "engaged": false
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add skill",
+    "content_type": 6,
+    "codename": "add_skill"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change skill",
+    "content_type": 6,
+    "codename": "change_skill"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete skill",
+    "content_type": 6,
+    "codename": "delete_skill"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view skill",
+    "content_type": 6,
+    "codename": "view_skill"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 7,
+    "codename": "add_useraccount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 7,
+    "codename": "change_useraccount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 7,
+    "codename": "delete_useraccount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 7,
+    "codename": "view_useraccount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add project",
+    "content_type": 8,
+    "codename": "add_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change project",
+    "content_type": 8,
+    "codename": "change_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete project",
+    "content_type": 8,
+    "codename": "delete_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view project",
+    "content_type": 8,
+    "codename": "view_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add position",
+    "content_type": 9,
+    "codename": "add_position"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change position",
+    "content_type": 9,
+    "codename": "change_position"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete position",
+    "content_type": 9,
+    "codename": "delete_position"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view position",
+    "content_type": 9,
+    "codename": "view_position"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add application",
+    "content_type": 10,
+    "codename": "add_application"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change application",
+    "content_type": 10,
+    "codename": "change_application"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete application",
+    "content_type": 10,
+    "codename": "delete_application"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view application",
+    "content_type": 10,
+    "codename": "view_application"
+  }
+},
+{
+  "model": "accounts.useraccount",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$9FgPdnzx7njX$O3iN0wM21b9U304rLvt9IUryeP8d22KHFzQFwQ2xpJc=",
+    "last_login": "2019-08-13T15:32:09Z",
+    "is_superuser": true,
+    "username": "juan@honita.com",
+    "first_name": "Juan Barahona",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-08-10T23:25:46Z",
+    "email": "juan@honita.com",
+    "about_me": "Staff Software Developer",
+    "avatar": "",
+    "groups": [],
+    "user_permissions": [],
+    "skills": [
+      85,
+      35,
+      42,
+      46,
+      49
+    ]
+  }
+},
+{
+  "model": "accounts.useraccount",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$UuEBNkxq1wXc$0aWFTQ+JgbdVujxNZgHZSBuD9Nki0SVVuEHw0ANY4xo=",
+    "last_login": "2019-08-13T15:13:03Z",
+    "is_superuser": false,
+    "username": "blakely@example.com",
+    "first_name": "Sara Blakely",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2019-08-12T22:54:33Z",
+    "email": "blakely@example.com",
+    "about_me": "I am the founder and CEO of SPANX! Spanx is known for inventing smarter, more comfortable, must-haves for women including leggings, activewear, bras, undies, Arm Tights\u2122, jeans and of course our famous shapewear which creates the perfect, smooth canvas under clothes!\r\n\r\nI started SPANX in 2000 with $5,000 in personal savings\u2026 and to this day, I still own 100% of the company. I\u2019ve never taken outside investments. I am a big believer in following your instincts and taking unique approaches to business.",
+    "avatar": "",
+    "groups": [],
+    "user_permissions": [],
+    "skills": [
+      17,
+      6,
+      85,
+      10
+    ]
+  }
+},
+{
+  "model": "accounts.useraccount",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$8sXDFdtweYZe$izLdKmcDkVXpfDrHvpQR4FAxIqW5pf+YVXPFvGWT9Ps=",
+    "last_login": "2019-08-13T15:08:40Z",
+    "is_superuser": false,
+    "username": "leonardo@example.com",
+    "first_name": "Leonardo Antezana",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2019-08-13T00:01:18Z",
+    "email": "leonardo@example.com",
+    "about_me": "Software Quality Engineer QA, Certified Scrum Master, ISTQB Certified Tester Foundation Level, Educator",
+    "avatar": "images/Falcon_Ellis_Eye_Wander_Photo_MWwedding1493_low.jpg",
+    "groups": [],
+    "user_permissions": [],
+    "skills": [
+      49,
+      51,
+      52,
+      53
+    ]
+  }
+},
+{
+  "model": "accounts.useraccount",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$ZCWzc0bBROWc$r7Ga9SR8jlBEAs8u4LvEasxT78qp4OgUbPSch65WPN4=",
+    "last_login": "2019-08-13T15:09:05Z",
+    "is_superuser": false,
+    "username": "richard@example.com",
+    "first_name": "Richard Branson",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2019-08-13T00:12:40Z",
+    "email": "richard@example.com",
+    "about_me": "Founder of the Virgin Group, which has gone on to grow successful businesses in sectors including mobile telephony, travel and transportation, financial services, leisure and entertainment and health and wellness. Virgin is a leading international investment group and one of the world's most recognised and respected brands. Since starting youth culture magazine \u201cStudent\u201d at aged 16, I have tried to find entrepreneurial ways to drive positive change in the world. In 2004 we established Virgin Unite, the non-profit foundation of the Virgin Group, which unites people and entrepreneurial ideas to create opportunities for a better world. Most of my time is now spent building businesses that will make a positive difference in the world and working with Virgin Unite and organisations it has incubated, such as The Elders, The Carbon War Room, The B Team and Ocean Unite. I also serve on the Global Commission on Drug Policy and supports ocean conservation with the Ocean Elders. I'm a tie-loathing adventurer, philanthropist and troublemaker, who believes in turning ideas into reality. Otherwise known as Dr Yes!",
+    "avatar": "",
+    "groups": [],
+    "user_permissions": [],
+    "skills": [
+      17,
+      4,
+      18,
+      19,
+      5
+    ]
+  }
+},
+{
+  "model": "projects.project",
+  "pk": 5,
+  "fields": {
+    "user": 1,
+    "title": "Titan",
+    "description": "Apple is mum, but Insiders report that the company is working on a car called \u201cTitan,\u201d slated to be road-ready in 2019. With a name that gigantic, buzz is already building about the features that may or may not rival Google\u2019s self-driving cars.",
+    "time_line": 24,
+    "requirementes": "Get 5 years of experience"
+  }
+},
+{
+  "model": "projects.project",
+  "pk": 6,
+  "fields": {
+    "user": 1,
+    "title": "Project Hanks",
+    "description": "Earlier this year, when Verizon Communications was looking to take over AOL, they needed to keep the deal secret and came up with a code name. According to the Telegraph, Project Hanks is the name they chose, which may not make sense until you remember that Tom Hanks starred in the movie You\u2019ve Got Mail (1998), a romantic comedy about a relationship built on AOL\u2019s famous mail notification.",
+    "time_line": 15,
+    "requirementes": ""
+  }
+},
+{
+  "model": "projects.project",
+  "pk": 12,
+  "fields": {
+    "user": 6,
+    "title": "Durango",
+    "description": "When Microsoft was looking to build upon its wildly popular XBox 360 gaming console, Durango was its name-o. But like all Microsoft projects, the project name was far from the final product name. In this case, they thought long and hard and hired the best people to release the One. XBox One.",
+    "time_line": 7,
+    "requirementes": "There's no need to use assembly language"
+  }
+},
+{
+  "model": "projects.project",
+  "pk": 13,
+  "fields": {
+    "user": 5,
+    "title": "Apollo",
+    "description": "One of the most famous projects of the last century, the Apollo program, was designed to land humans on the moon and bring them back home alive. It\u2019s the kind of story more told in myth, which is maybe why NASA (an acronym for National Aeronautics and Space Administration) went back to the Greeks. Apollo is associated with the Greek verb meaning to destroy. That may sound counterintuitive, but in Greek mythology Apollo, son of Zeus and Leto, twin of Artemis, was the god of prophecy, medicine, music, art, law, beauty and wisdom. I guess getting to the moon required all that and more.",
+    "time_line": 78,
+    "requirementes": "Share their information, ideas and opinions."
+  }
+},
+{
+  "model": "projects.project",
+  "pk": 14,
+  "fields": {
+    "user": 6,
+    "title": "Manhattan Project",
+    "description": "The super-secret project to develop an atomic bomb during World War II was a bee hive of activity for some of the smartest minds at the time, but all they could come up with in terms of a name for their work was \u201cManhattan\u201d because they began the research in an simple office building located in Manhattan, New York. They eventually moved to more secure environs out of the area, but the classy name remained.",
+    "time_line": 48,
+    "requirementes": "Critical thinkers\r\nProblem solving\r\nSociable in their nature they are open to new ideas"
+  }
+},
+{
+  "model": "projects.application",
+  "pk": 12,
+  "fields": {
+    "position": 8,
+    "user": 5,
+    "status": 2
+  }
+},
+{
+  "model": "projects.application",
+  "pk": 18,
+  "fields": {
+    "position": 8,
+    "user": 6,
+    "status": 3
+  }
+},
+{
+  "model": "projects.application",
+  "pk": 19,
+  "fields": {
+    "position": 9,
+    "user": 6,
+    "status": 2
+  }
+},
+{
+  "model": "projects.application",
+  "pk": 20,
+  "fields": {
+    "position": 9,
+    "user": 5,
+    "status": 3
+  }
+},
+{
+  "model": "projects.application",
+  "pk": 21,
+  "fields": {
+    "position": 6,
+    "user": 7,
+    "status": 1
+  }
+},
+{
+  "model": "projects.application",
+  "pk": 22,
+  "fields": {
+    "position": 21,
+    "user": 7,
+    "status": 2
+  }
+},
+{
+  "model": "projects.application",
+  "pk": 23,
+  "fields": {
+    "position": 22,
+    "user": 7,
+    "status": 1
+  }
+},
+{
+  "model": "projects.application",
+  "pk": 24,
+  "fields": {
+    "position": 26,
+    "user": 7,
+    "status": 2
+  }
+},
+{
+  "model": "projects.application",
+  "pk": 25,
+  "fields": {
+    "position": 7,
+    "user": 6,
+    "status": 1
+  }
+},
+{
+  "model": "projects.application",
+  "pk": 26,
+  "fields": {
+    "position": 20,
+    "user": 6,
+    "status": 2
+  }
+},
+{
+  "model": "projects.application",
+  "pk": 27,
+  "fields": {
+    "position": 21,
+    "user": 6,
+    "status": 3
+  }
+},
+{
+  "model": "projects.application",
+  "pk": 28,
+  "fields": {
+    "position": 19,
+    "user": 5,
+    "status": 2
+  }
+},
+{
+  "model": "projects.application",
+  "pk": 29,
+  "fields": {
+    "position": 16,
+    "user": 1,
+    "status": 2
+  }
+},
+{
+  "model": "projects.application",
+  "pk": 30,
+  "fields": {
+    "position": 23,
+    "user": 1,
+    "status": 1
+  }
+},
+{
+  "model": "projects.application",
+  "pk": 31,
+  "fields": {
+    "position": 28,
+    "user": 1,
+    "status": 1
+  }
+},
+{
+  "model": "projects.application",
+  "pk": 32,
+  "fields": {
+    "position": 22,
+    "user": 1,
+    "status": 3
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2019-08-13T15:33:04.443Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "56",
+    "object_repr": "Dibujante",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2019-08-13T15:33:04.581Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "63",
+    "object_repr": "Follar",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2019-08-13T15:33:04.697Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "60",
+    "object_repr": "Juan",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2019-08-13T15:33:04.813Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "57",
+    "object_repr": "Pattient",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2019-08-13T15:33:04.945Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "64",
+    "object_repr": "businesses",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2019-08-13T15:33:05.067Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "58",
+    "object_repr": "ever",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2019-08-13T15:33:05.199Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "59",
+    "object_repr": "to too",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2019-08-13T15:34:38.416Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "richard@example.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"skills\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2019-08-13T15:34:50.517Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "leonardo@example.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"skills\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2019-08-13T15:34:59.290Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "blakely@example.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"skills\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2019-08-13T15:35:07.124Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "juan@honita.com",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+}
+]

@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% load static from staticfiles %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/variables.css' %}">
+{% endblock %}
+
+{% block body %}
+
+    <div class="circle--actions--bar">
+        <nav class="bounds">
+            <ul class="circle--pill--list">
+            <li><a class="" href="{% url 'projects:applications' %}">Applications</a></li>
+            <li><a class="" href="{% url 'accounts:profile' pk=user.pk %}">Profile</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    {% block profile %}{% endblock %}
+
+{% endblock %}

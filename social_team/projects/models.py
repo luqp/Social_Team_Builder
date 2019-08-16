@@ -6,7 +6,7 @@ STATUS = (
     (0, 'Without applicants'),
     (1, 'Applying'),
     (2, 'Accepted'),
-    (3, 'Reject')
+    (3, 'Rejected')
 )
 
 

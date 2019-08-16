@@ -12,7 +12,7 @@
             </a>
             <div>
               <button disabled class="button button-inactive">{{ app.get_status_display }}</button>
-              {% if app.status != 2 %}
+              {% if app.status != 2 and app.status != 3 %}
                 <a class="button button-unfollow" href="{% url 'projects:app_delete' pk_app=app.pk %}" class="button">Delete</a>
               {% endif %}
             </div>
